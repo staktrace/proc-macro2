@@ -24,7 +24,7 @@
 
 #![cfg_attr(feature = "nightly", feature(proc_macro))]
 
-extern crate proc_macro;
+extern crate rustc_ap_proc_macro as proc_macro;
 
 #[cfg(not(feature = "nightly"))]
 extern crate unicode_xid;
